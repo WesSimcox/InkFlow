@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "inkflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r AS A developer\r I WANT to create notes or code snippets with or without an internet connection\r SO THAT I can reliably retrieve them for later use\r ```\r ## Acceptance Criteira\r ```\r GIVEN a text editor web application\r WHEN I open my application in my editor\r THEN I should see a client server folder structure\r WHEN I run `npm run start` from the root directory\r THEN I find that my application should start up the backend and serve the client\r WHEN I run the text editor application from my terminal\r THEN I find that my JavaScript files have been bundled using webpack\r WHEN I run my webpack plugins\r THEN I find that I have a generated HTML file, service worker, and a manifest file\r WHEN I use next-gen JavaScript in my application\r THEN I find that the text editor still functions in the browser without errors\r WHEN I open the text editor\r THEN I find that IndexedDB has immediately created a database storage\r WHEN I enter content and subsequently click off of the DOM window\r THEN I find that the content in the text editor has been saved with IndexedDB\r WHEN I reopen the text editor after closing it\r THEN I find that the content in the text editor has been retrieved from our IndexedDB\r WHEN I click on the Install button\r THEN I download my web application as an icon on my desktop\r WHEN I load my web application\r THEN I should have a registered service worker using workbox\r WHEN I register a service worker\r THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets\r WHEN I deploy to Heroku\r THEN I should have proper build scripts for a webpack application\r ```",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -12,7 +12,7 @@
     "client": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "Wes Simcox",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -21,5 +21,13 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesSimcox/InkFlow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WesSimcox/InkFlow/issues"
+  },
+  "homepage": "https://github.com/WesSimcox/InkFlow#readme"
 }
