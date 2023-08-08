@@ -1,4 +1,4 @@
-# Text Editor Starter Code'
+# InkFlow
 
 ## User story
 ```
@@ -34,3 +34,14 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+## Description
+Introducing InkFlow, your ultimate companion for effortless and efficient text editing. Whether you're a professional writer, a coding enthusiast, a student, or just someone who loves jotting down thoughts, InkFlow is designed to elevate your writing experience to new heights.
+
+## Usage
+To use this app 
+
+## Authors
+Wes Simcox
+
+## Status
+Incomplete: Errors with deployment
